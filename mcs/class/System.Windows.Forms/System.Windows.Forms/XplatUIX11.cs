@@ -1511,7 +1511,7 @@ namespace System.Windows.Forms {
 			if (count == 0)
 				return;
 
-			for (int i = 0; i < timers.Count; i++) {
+			for (int i = 0; i < count; i++) {
 				Timer timer;
 
 				timer = (Timer) timers [i];
